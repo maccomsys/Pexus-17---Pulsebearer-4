@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #111835;
+  --color-secondary: #0d132b;
+  --color-accent: #FCA311;
+  --color-dark: #111835;
+  --color-muted: #e5e5e5;
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+
+html, body {
+  @apply overflow-x-hidden w-full m-0 p-0;
+}
+
+body {
+  @apply bg-white text-dark font-sans antialiased;
+}
+
+
